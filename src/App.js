@@ -48,7 +48,6 @@ function App() {
     setAlldata(tmpdata)
   },[chats,res]);
 
-  console.log(process.env.REACT_APP_API_SERVER)
   return (
   <Layout className="App">
     <Header>
